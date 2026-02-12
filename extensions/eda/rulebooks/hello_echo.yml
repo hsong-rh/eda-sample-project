@@ -10,3 +10,7 @@
       action:
         debug:
           msg: "Hello World!"
+      condition: event.i == 2
+      action:
+        debug:
+          msg: "Hello There!"
